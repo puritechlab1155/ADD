@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADD 국방과학연구소 | 웹진</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.js"
+    integrity="sha256-UgvvN8vBkgO0luPSUl2s8TIlOSYRoGFAX4jlCIm9Adc="
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/swiper.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <section id="home">
+        <header id="header" class="header">
+            <div class="content">
+                <h1 class="logo">
+                    <img class="scroll-logo" src="img/add-logo-white.png" alt="국방과학연구소 웹진 로고 화이트">
+                    <span class="blind">ADD 국방과학연구소 웹진</span>
+                </h1>
+                
+                <div id="nav-img-on">
+                    <img src="img/visual-nav-logo.png" alt="ch.ADD 블랙">
+                </div>
+
+                <nav id="nav" class="nav">
+                    <ul class="gnb">
+                        <!-- <li id="nav-img-on">
+                            <img src="img/visual-nav-logo.png" alt="">
+                        </li> -->
+                        <li class="nav-gnb">
+                            <a href="#" style="color: #fff;">ADD THINK</a>
+                        </li>
+                        <li class="nav-gnb">
+                            <a href="#" style="color: #fff;">ADD VIEW</a>
+                        </li>
+                        <li class="nav-gnb">
+                            <a href="#" style="color: #fff;">ADD LIFE</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="offcanvas-wrap">
+                    <button class="offcanvas-open">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+
+                    <div class="offcanvas">
+                        <div class="offcanvas-header">
+                            <div class="vol-info">March 2025&nbsp;&nbsp;<span>|</span>&nbsp;&nbsp;VOL.1</div>
+                        </div>
+
+                        <div class="offcanvas-body">
+                            <div class="offcanvas-menu">
+                                <div class="menu-title">ADD THINK</div>
+
+                                <ul class="menu-list">
+                                    <li>
+                                        <a href="#">
+                                            <span>55주년 특집</span>
+                                            K-방산과 ADD <br>그리고 대표 무기 미니어처 만들기
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>55주년 특집</span>
+                                            K-방산과 ADD <br>그리고 대표 무기 미니어처 만들기
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>55주년 특집</span>
+                                            K-방산과 ADD <br>그리고 대표 무기 미니어처 만들기
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div><!-- //offcanvas-menu -->
+
+                            <div class="offcanvas-menu">
+                                <div class="menu-title">ADD VIEW</div>
+
+                                <ul class="menu-list">
+                                    <li>
+                                        <a href="#">
+                                            <span>세계로 기술로</span>
+                                            AI·빅데이터 기술 확보 나선 방산 선진국
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>인포그래픽</span>
+                                            ESG와 ADD, 함께 걷다
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>지구지킴이</span>
+                                            바다와 내가 춤출 때까지, 줍는 마음
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>ON AIR </span>
+                                            저피탐 무인 편대기 <br>시범기(LOWUS) 출고 행사 성료
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>인사이트</span>
+                                            미래 전장을 준비할 함정기술 역량의 핵심
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div><!-- //offcanvas-menu -->
+
+                            <div class="offcanvas-menu">
+                                <div class="menu-title">ADD LIFE</div>
+
+                                <ul class="menu-list">
+                                    <li>
+                                        <a href="#">
+                                            <span>패밀리가떴다</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>스페이스 제로</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>브레인스토밍</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>출발! 무비트래블</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>문장수집</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div><!-- //offcanvas-menu -->
+
+                            <a href="#" class="prev-vol">지난호 보기</a>
+                        </div>
+                    </div><!-- //offcanvas -->
+
+                    <div class="offcanvas-backdrop"></div>
+                </div>
+            </div>
+        </header>
+
+        <main id="main" class="main">
+            <div class="main-visual">
+            <!-- 영상부분 -->
+                <video id="background-video" class="video-container" autoplay muted loop>
+                    <source src="img/visual-video.mp4" type="video/mp4">
+                </video>
+            </div>
+            
+            <!-- 스크롤 시 줄어드는 이미지 -->
+            <div class="image-container-box">
+                <div id="scroll-image" class="image-container">
+                    <img id="" class="scroll-img" src="img/visual-logo-white.png" alt="ch.ADD 화이트">
+                </div>
+            </div>
+            
+            <!-- //main-visual -->
+
+            <div class="section01">
+                <div class="inner">
+                    <div class="content">
+                        <h3 class="section-title">ADD THINK </h3>
+
+                        <div class="slide-container pc_display">
+                            <div class="swiper s1-swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="img-box">
+                                            <img src="img/home/s1-slide-img01.jpg" alt="ADD THINK 슬라이드 이미지 1" style="object-position: center 35%;">
+
+                                            <div class="text-box">
+                                                <span>55주년 특집</span>
+                                                <p>K-방산과 ADD <br>그리고 대표 무기 미니어처 만들기</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="swiper-slide slide-flex">
+                                        <div class="part01">
+                                            <div class="img-box">
+                                                <img src="img/home/s1-slide-img02.jpg" alt="슬라이드 이미지 2" style="object-position: center bottom; transform: scale(1.36); transform-origin: 45% bottom;">
+
+                                                <div class="text-box">
+                                                    <span>55주년 특집</span>
+                                                    <p>K-방산과 ADD <br>그리고 대표 무기 미니어처 만들기</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="part02">
+                                            <div class="img-box">
+                                                <img src="img/home/s1-slide-img03.jpg" alt="슬라이드 이미지 3" style="object-position: 88% center;">
+
+                                                <div class="text-box">
+                                                    <span>55주년 특집</span>
+                                                    <p>K-방산과 ADD <br>그리고 대표 무기 <br>미니어처 만들기</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="slide-buttons">
+                                    <div class="swiper-pagination s1-swiper-pagination"></div>
+                                    <div class="play-button play-button-pc"><img src="img/home/s1-slide-play.png" alt="슬라이드 재생"></div>
+                                    <div class="pause-button pause-button-pc"><img src="img/home/s1-slide-pause.png" alt="슬라이드 일시정지"></div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-button-next s1-swiper-button-next"><img src="img/home/s1-slide-next.png" alt="다음 슬라이드"></div>
+                            <div class="swiper-button-prev s1-swiper-button-prev"><img src="img/home/s1-slide-prev.png" alt="이전 슬라이드"></div>
+                        </div><!-- //slide-container(pc) -->
+
+                        <div class="slide-container tablet mobile">
+                            <div class="swiper s1-slide-mo">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="img-box">
+                                            <img src="img/home/s1-slide-img01.jpg" alt="모바일 슬라이드 이미지 1">
+
+                                            <div class="text-box">
+                                                <span>55주년 특집</span>
+                                                <p>K-방산과 ADD <br>그리고 대표 무기 미니어처 만들기</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img-box">
+                                            <img src="img/home/s1-slide-img02.jpg" alt="모바일 슬라이드 이미지 2">
+
+                                            <div class="text-box">
+                                                <span>55주년 특집</span>
+                                                <p>K-방산과 ADD <br>그리고 대표 무기 미니어처 만들기</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img-box">
+                                            <img src="img/home/s1-slide-img03.jpg" alt="모바일 슬라이드 이미지 3">
+
+                                            <div class="text-box">
+                                                <span>55주년 특집</span>
+                                                <p>K-방산과 ADD <br>그리고 대표 무기 미니어처 만들기</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="slide-buttons">
+                                    <div class="swiper-pagination s1-mo-swiper-pagination"></div>
+                                    <div class="play-button play-button-mo"><img src="img/home/play-button.svg" alt="슬라이드 재생"></div>
+                                    <div class="pause-button pause-button-mo"><img src="img/home/pause-button.svg" alt="슬라이드 일시정지"></div>
+                                </div>
+                            </div>
+                        </div><!-- //slide-container(mo) -->
+                    </div>
+                </div>
+            </div><!-- //section01 -->
+
+            <div class="section02">
+                <div class="inner">
+                    <div class="content">
+                        <div class="title-area">
+                            <h3 class="section-title">ADD VIEW</h3>
+
+                            <ul class="tabs">
+                                <li class="tab on">#ADD</li>
+                                <li class="tab">#K-방산</li>
+                                <li class="tab">저피탐 무인 편대기</li>
+                                <li class="tab">#함정기술</li>
+                            </ul>
+                        </div>
+
+                        <ul class="tab-conts">
+                            <!-- 1번째 탭 -->
+                            <li class="on">
+                                <div class="card-list">
+                                    <div class="card card-w">
+                                        <div class="img-box"></div>
+                                        <div class="card-body">
+                                            <span class="category">세계로 기술로</span>
+                                            <p class="card-text">AI·빅데이터 기술 확보 나선 방산 선진국, 핵심 과제는 '전력'</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <div class="img-box"></div>
+                                        <div class="card-body">
+                                            <span class="category">인포그래픽</span>
+                                            <p class="card-text">ESG와 ADD, 함께 걷다</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <div class="img-box"></div>
+                                        <div class="card-body">
+                                            <span class="category">지구지킴이</span>
+                                            <p class="card-text">바다와 내가 춤출 때까지, <br>줍는 마음</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <div class="img-box"></div>
+                                        <div class="card-body">
+                                            <span class="category">ON AIR</span>
+                                            <p class="card-text">저피탐 무인 편대기 <br>시범기(LOWUS) 출고 행사 성료</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <div class="img-box"></div>
+                                        <div class="card-body">
+                                            <span class="category">인사이트</span>
+                                            <p class="card-text">미래 전장을 준비할 <br>함정기술 역량의 핵심</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- 2번째 탭 -->
+                            <li>
+                                <div class="card-list">
+                                    <div class="card card-w">
+                                        <div class="img-box"></div>
+                                        <div class="card-body">
+                                            <span class="category">세계로 기술로</span>
+                                            <p class="card-text">AI·빅데이터 기술 확보 나선 방산 선진국, 핵심 과제는 '전력'</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <div class="img-box"></div>
+                                        <div class="card-body">
+                                            <span class="category">인포그래픽</span>
+                                            <p class="card-text">ESG와 ADD, 함께 걷다</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <div class="img-box"></div>
+                                        <div class="card-body">
+                                            <span class="category">지구지킴이</span>
+                                            <p class="card-text">바다와 내가 춤출 때까지, <br>줍는 마음</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <div class="img-box"></div>
+                                        <div class="card-body">
+                                            <span class="category">ON AIR</span>
+                                            <p class="card-text">저피탐 무인 편대기 <br>시범기(LOWUS) 출고 행사 성료</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <div class="img-box"></div>
+                                        <div class="card-body">
+                                            <span class="category">인사이트</span>
+                                            <p class="card-text">미래 전장을 준비할 <br>함정기술 역량의 핵심</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- 3번째 탭 -->
+                            <li>
+                                <div class="card-list">
+                                    <div class="card card-w">
+                                        <div class="img-box"></div>
+                                        <div class="card-body">
+                                            <span class="category">세계로 기술로</span>
+                                            <p class="card-text">AI·빅데이터 기술 확보 나선 방산 선진국, 핵심 과제는 '전력'</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <div class="img-box"></div>
+                                        <div class="card-body">
+                                            <span class="category">인포그래픽</span>
+                                            <p class="card-text">ESG와 ADD, 함께 걷다</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <div class="img-box"></div>
+                                        <div class="card-body">
+                                            <span class="category">지구지킴이</span>
+                                            <p class="card-text">바다와 내가 춤출 때까지, <br>줍는 마음</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <div class="img-box"></div>
+                                        <div class="card-body">
+                                            <span class="category">ON AIR</span>
+                                            <p class="card-text">저피탐 무인 편대기 <br>시범기(LOWUS) 출고 행사 성료</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <div class="img-box"></div>
+                                        <div class="card-body">
+                                            <span class="category">인사이트</span>
+                                            <p class="card-text">미래 전장을 준비할 <br>함정기술 역량의 핵심</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- 4번째 탭 -->
+                            <li>
+                                <div class="card-list">
+                                    <div class="card card-w">
+                                        <div class="img-box"></div>
+                                        <div class="card-body">
+                                            <span class="category">세계로 기술로</span>
+                                            <p class="card-text">AI·빅데이터 기술 확보 나선 방산 선진국, 핵심 과제는 '전력'</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <div class="img-box"></div>
+                                        <div class="card-body">
+                                            <span class="category">인포그래픽</span>
+                                            <p class="card-text">ESG와 ADD, 함께 걷다</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <div class="img-box"></div>
+                                        <div class="card-body">
+                                            <span class="category">지구지킴이</span>
+                                            <p class="card-text">바다와 내가 춤출 때까지, <br>줍는 마음</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <div class="img-box"></div>
+                                        <div class="card-body">
+                                            <span class="category">ON AIR</span>
+                                            <p class="card-text">저피탐 무인 편대기 <br>시범기(LOWUS) 출고 행사 성료</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <div class="img-box"></div>
+                                        <div class="card-body">
+                                            <span class="category">인사이트</span>
+                                            <p class="card-text">미래 전장을 준비할 <br>함정기술 역량의 핵심</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div><!-- //section02 -->
+
+            <div class="section03">
+                <div class="inner">
+                    <div class="title-area">
+                        <h3 class="section-title">ADD LIFE</h3> 
+
+                        <ul class="tabs">
+                            <li class="tab on">#ADD</li>
+                            <li class="tab">#저피탐 무인 편대기 시범기</li>
+                            <li class="tab">#AI</li>
+                            <li class="tab">#ESG</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="tab-slide-container pc_display">
+                        <div class="tab-slide active">
+                            <div class="slide-wrap">
+                                <ul class="slide-list">
+                                    <li>
+                                        <div class="img-box"></div>
+                                        <span class="category">패밀리가떴다</span>
+                                    </li>
+                                    <li>
+                                        <div class="img-box"></div>
+                                        <span class="category">스페이스 제로</span>
+                                    </li>
+                                    <li>
+                                        <div class="img-box"></div>
+                                        <span class="category">브레인스토밍</span>
+                                    </li>
+                                    <li>
+                                        <div class="img-box"></div>
+                                        <span class="category">출발! 무비트래블</span>
+                                    </li>
+                                    <li>
+                                        <div class="img-box"></div>
+                                        <span class="category">문장수집</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="tab-slide">
+                            <div class="slide-wrap">
+                                <ul class="slide-list">
+                                    <li>
+                                        <div class="img-box"></div>
+                                        <span class="category">패밀리가떴다</span>
+                                    </li>
+                                    <li>
+                                        <div class="img-box"></div>
+                                        <span class="category">스페이스 제로</span>
+                                    </li>
+                                    <li>
+                                        <div class="img-box"></div>
+                                        <span class="category">브레인스토밍</span>
+                                    </li>
+                                    <li>
+                                        <div class="img-box"></div>
+                                        <span class="category">출발! 무비트래블</span>
+                                    </li>
+                                    <li>
+                                        <div class="img-box"></div>
+                                        <span class="category">문장수집</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="tab-slide">
+                            <div class="slide-wrap">
+                                <ul class="slide-list">
+                                    <li>
+                                        <div class="img-box"></div>
+                                        <span class="category">패밀리가떴다</span>
+                                    </li>
+                                    <li>
+                                        <div class="img-box"></div>
+                                        <span class="category">스페이스 제로</span>
+                                    </li>
+                                    <li>
+                                        <div class="img-box"></div>
+                                        <span class="category">브레인스토밍</span>
+                                    </li>
+                                    <li>
+                                        <div class="img-box"></div>
+                                        <span class="category">출발! 무비트래블</span>
+                                    </li>
+                                    <li>
+                                        <div class="img-box"></div>
+                                        <span class="category">문장수집</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="tab-slide">
+                            <div class="slide-wrap">
+                                <ul class="slide-list">
+                                    <li>
+                                        <div class="img-box"></div>
+                                        <span class="category">패밀리가떴다</span>
+                                    </li>
+                                    <li>
+                                        <div class="img-box"></div>
+                                        <span class="category">스페이스 제로</span>
+                                    </li>
+                                    <li>
+                                        <div class="img-box"></div>
+                                        <span class="category">브레인스토밍</span>
+                                    </li>
+                                    <li>
+                                        <div class="img-box"></div>
+                                        <span class="category">출발! 무비트래블</span>
+                                    </li>
+                                    <li>
+                                        <div class="img-box"></div>
+                                        <span class="category">문장수집</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div><!-- //tab-slide-container(pc) -->
+
+                    <div class="swiper-slide-container mobile_display">
+                        <div class="tab-slide active">
+                            <div class="swiper s3-swiper s3-swiper01">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="img-box"></div>
+                                        <span class="category">패밀리가떴다</span>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img-box"></div>
+                                        <span class="category">스페이스 제로</span>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img-box"></div>
+                                        <span class="category">브레인스토밍</span>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img-box"></div>
+                                        <span class="category">출발! 무비트래블</span>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img-box"></div>
+                                        <span class="category">문장수집</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-pagination s3-swiper-pagination s3-swiper-pagination01"></div>
+                        </div>
+
+                        <div class="tab-slide">
+                            <div class="swiper s3-swiper s3-swiper02">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="img-box"></div>
+                                        <span class="category">에코 상점2</span>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img-box"></div>
+                                        <span class="category">에코 상점</span>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img-box"></div>
+                                        <span class="category">에코 상점</span>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img-box"></div>
+                                        <span class="category">에코 상점</span>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img-box"></div>
+                                        <span class="category">에코 상점</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-pagination s3-swiper-pagination s3-swiper-pagination02"></div>
+                        </div>
+
+                        <div class="tab-slide">
+                            <div class="swiper s3-swiper s3-swiper03">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="img-box"></div>
+                                        <span class="category">에코 상점3</span>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img-box"></div>
+                                        <span class="category">에코 상점</span>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img-box"></div>
+                                        <span class="category">에코 상점</span>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img-box"></div>
+                                        <span class="category">에코 상점</span>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img-box"></div>
+                                        <span class="category">에코 상점</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-pagination s3-swiper-pagination s3-swiper-pagination03"></div>
+                        </div>
+
+                        <div class="tab-slide">
+                            <div class="swiper s3-swiper s3-swiper04">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="img-box"></div>
+                                        <span class="category">에코 상점4</span>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img-box"></div>
+                                        <span class="category">에코 상점</span>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img-box"></div>
+                                        <span class="category">에코 상점</span>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img-box"></div>
+                                        <span class="category">에코 상점</span>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img-box"></div>
+                                        <span class="category">에코 상점</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-pagination s3-swiper-pagination s3-swiper-pagination04"></div>
+                        </div>
+                    </div><!-- //tab-slide-container(mo) -->
+                </div>
+            </div><!-- //section03 -->
+
+        </main>
+
+        <footer id="footer" class="footer">
+            <div class="inner">
+                <div class="content">
+                    <div class="left">
+                        <div class="add-logo"><img src="img/add-logo-footer.png" alt="국방과학연구소 로고"></div>
+
+                        <div class="text-box">
+                            <p>34186 대전광역시 유성구 유성우체국 사서함 35호 대표번호 042.822.4271~3, 042.821.2000</p>
+                            <p>COPYRIGHT ⓒ2025 AGENCY FOR DEFENSE DEVELOPMENT ALL RIGHTS RESERVED</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var scrollImage = document.getElementById('scroll-image');
+        var header = document.getElementById('header');
+        var $logo = $('#nav-img-on');
+        var $navGnb = $('nav-gnb');
+        var $navGnbList = $('.nav-gnb a');
+        var $mobMenu = $('.offcanvas-open span');
+        var scrollLogo = document.querySelector('.scroll-logo');
+
+
+        function handleScroll() {
+            var scrollPosition = window.scrollY;
+            var headerHeight = header.offsetHeight; // 현재 헤더의 높이
+            var triggerPoint = window.innerHeight - headerHeight; // 화면 높이 - 헤더 높이
+
+            // 이미지 크기 조정
+            if (scrollImage) {
+                var scale = Math.max(1 - scrollPosition / 900, 0.1);
+                scrollImage.style.transform = `scale(${scale})`;
+            }
+
+            // 헤더 색상 및 이미지 변경
+            if (scrollPosition > triggerPoint) {
+                header.style.backgroundColor = '#fff';
+
+                $logo.css({ display: 'block' });
+                $navGnbList.css({ color: '#000' });
+                $mobMenu.css({ background: '#000' });
+
+                // ✅ 로고 이미지 변경 (어두운 배경용)
+                if (scrollLogo) {
+                    scrollLogo.src = 'img/add-logo-black.png';
+                }
+
+                // 반응형에서 네비게이션 숨김
+                if (window.innerWidth <= 768) {
+                    $navGnb.css({ display: 'none' });
+                }
+            } else {
+                header.style.backgroundColor = 'transparent';
+                $logo.css({ display: 'none' });
+                $navGnbList.css({ color: '#fff' });
+                $mobMenu.css({ background: '#fff' });
+
+                // ✅ 원래 로고 이미지 복원 (밝은 배경용)
+                if (scrollLogo) {
+                    scrollLogo.src = 'img/add-logo-white.png';
+                }
+
+                // 반응형에서 네비게이션 숨김
+                if (window.innerWidth <= 768) {
+                    $navGnb.css({ display: 'none' });
+                }
+            }
+        }
+
+        window.addEventListener('scroll', handleScroll);
+
+
+        // 모바일 네비비게이션 닫기 버튼 컬러 변경
+        $('.offcanvas-open').click(function() {
+            $mobMenu.css({background : '#000' });
+
+            if($(this).hasClass('active')){
+                $mobMenu.css({background : '#fff' });
+            }
+
+            if($(window).scrollTop() > 800){
+                $mobMenu.css({background : '#000' });
+            }
+            
+        });
+        // fullPage.js
+    });
+    </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.31/fullpage.min.js" integrity="sha512-x5JY7KTULoGmcgxguKf5p4i3wfx7qXlY3OMjqez4Pj8BPoMn4krRQmwDtOwF81F+/9Be+jvhBsKOIaPPZmRelQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="js/script.js"></script>
+    <script src="js/gsap.js"></script>
+    <script src="js/swiper.js"></script>
+</body>
+</html>
