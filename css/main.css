@@ -1601,8 +1601,10 @@ text-align: center;}
 }
 
 @media (max-width: 480px) {
+  .header .offcanvas .offcanvas-header .vol-info {
+    font-size: 30px;
+  }
   .image-container {
-      /* top: 65%; */
       bottom: 0%;
   }
   .image-container img {
