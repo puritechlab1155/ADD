@@ -824,7 +824,7 @@ div.inner {
   padding-top: 10px;
   border-top: 1px solid #000;
   width: 100%;
-  max-width: 415px;
+  max-width: 450px;
 }
 .header .offcanvas .offcanvas-menu .menu-title {
   font-family: "Poppins", serif;
@@ -849,7 +849,7 @@ div.inner {
   font-size: 15px;
   display: block;
 }
-.header .offcanvas .prev-vol {
+.header .offcanvas .menu-btn {
   max-width: 133px;
   padding: 10px 20px;
   background: #000;
@@ -857,8 +857,9 @@ div.inner {
   font-family: "Noto Sans KR", serif;
   font-weight: 700;
   font-size: 20px;
-  letter-spacing: -1px;
+  letter-spacing: -0.5px;
   color: #fff;
+  margin-right: 20px;
 }
 .header .offcanvas.show {
   transform: translateX(0);
@@ -1598,22 +1599,14 @@ text-align: center;}
     justify-content: space-between;
   }
 }
+
 @media (max-width: 480px) {
-  /* .header {
-      padding: 0.25rem;
-  }
-  .main-visual {
-      padding-top: 50px;
-  } */
   .image-container {
       /* top: 65%; */
       bottom: 0%;
   }
   .image-container img {
       width: 80%;
-  }
-  #nav-img-on {
-
   }
   #nav-img-on img {
     width: 90px;
@@ -1622,10 +1615,14 @@ text-align: center;}
   .header .content .logo img {
     width: 70%;
   }
+  .header .offcanvas .menu-btn {
+    font-size: 15px;
+    padding: 10px 15px;
+    margin-right: 10px;
+}
 }
 @media (min-width: 768px) and (max-width: 1500px) {
   .header .nav {
-    /* justify-content: center; */
     display: none;
   }
   .header .gnb li a {
