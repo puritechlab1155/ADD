@@ -774,6 +774,7 @@ div.inner {
 .header .offcanvas-open.active span:nth-child(1) {
   top: 50%;
   transform: translateY(-50%) rotate(-45deg);
+  background: #000 !important;
 }
 .header .offcanvas-open.active span:nth-child(2) {
   display: none;
@@ -781,6 +782,7 @@ div.inner {
 .header .offcanvas-open.active span:nth-child(3) {
   top: 50%;
   transform: translateY(-50%) rotate(45deg);
+  background: #000 !important;
 }
 .header .offcanvas {
   width: 100%;
